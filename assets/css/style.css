@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #f4f7f6;
+}
+.navbar-brand { 
+    font-weight: 700; 
+    letter-spacing: 1px;
+}
+.bg-primary {
+    background-color: #007bff !important; /* Standard blue */
+}
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+.btn-success {
+    background-color: #28a745;
+    border-color: #28a745;
+}
+.btn-danger {
+    background-color: #dc3545;
+    border-color: #dc3545;
+}
+.card { 
+    transition: transform 0.3s ease, box-shadow 0.3s ease; 
+    border-radius: 12px;
+    border: none;
+}
+.card:hover { 
+    transform: translateY(-5px); 
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+.card-img-top {
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+.form-control, .form-select {
+    border-radius: 8px;
+}
+/* Login/Register/Profile Card Styling */
+.auth-card {
+    max-width: 450px;
+    margin: 0 auto;
+    padding: 30px;
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+.table-bordered {
+    border-radius: 8px;
+    overflow: hidden;
+    border: 1px solid #dee2e6;
+}
+
+
